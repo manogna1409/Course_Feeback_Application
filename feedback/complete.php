@@ -56,11 +56,8 @@ $ssem=$_SESSION['ssem'];
 $name="feedback".$syear.$ssem;
 echo $name;
 $username=$_SESSION['user_name'];
-//echo $username;
 $cno=$_SESSION['c_no'];
-//echo $cno;
 $fid=$_SESSION['f_id'];
-//echo $fid;
 
 
 $query="INSERT INTO `$name` (`rollno`, `courseno`, `fid`, `q1`, `q2`, `q3`, `q4`, `q5`, `q6`, `q7`, `q8`, `q9`, `q10`, `q11`, `q12`, `q13`, `q14`, `q15`, `q16`,`q17`,`q18`) VALUES ('$username','$cno','$fid','$f1','$f2','$f3','$f4','$f5','$f6','$f7','$f8','$f9','$f10','$c1','$c2','$c3','$c4','$c5','$c6','$c7','$c8')";

@@ -2,7 +2,6 @@
 require 'core.php'; 
 include 'head.php';
 
-
 if(isset($_SESSION['year']) && isset($_SESSION['year']))
 {
 //echo "enter 0";
